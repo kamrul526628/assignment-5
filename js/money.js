@@ -1,3 +1,6 @@
+
+// eorr function
+
 function errorDisable(){
     document.getElementById('error-message').style.display = 'none';
 }
@@ -6,6 +9,7 @@ function errorAble(){
     document.getElementById('error-message').style.display = 'block';
 }
 
+// calculate button event
 
 document.getElementById('calculatebutton').addEventListener('click', function(){
     const incomeInput = document.getElementById('income');
@@ -44,42 +48,8 @@ document.getElementById('calculatebutton').addEventListener('click', function(){
     }
     
     
-    
-
-    
-
-    
-
-    
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-
-
-    
-    
-    
-
-    // foodInput.value = '';
-    // rentInput.value = '';
-    // clothInput.value = '';
-
-
-   
-    
-    // incomeInput.value = '';
-    
-    
 })
+// saving button
 
 document.getElementById('save-button').addEventListener('click', function(){
     const incomeInput = document.getElementById('income');
@@ -105,10 +75,6 @@ document.getElementById('save-button').addEventListener('click', function(){
     const newClothInputText = parseFloat(clothInputText);
 
     
-    
-
-
-    
     const NewAfterSaveRemainingBalasce = document.getElementById('remaining-balance');
     const newSaveingAmount= document.getElementById('saving-amount');
 
@@ -130,10 +96,5 @@ document.getElementById('save-button').addEventListener('click', function(){
         newSaveingAmount.innerText='00';
         
 
-    }
-
-   
-
-
-
+    } 
 })
