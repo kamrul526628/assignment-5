@@ -70,6 +70,7 @@ document.getElementById('save-button').addEventListener('click', function(){
     const foodInputText = foodInput.value;
     const rentInputText = rentInput.value;
     const clothInputText = clothInput.value;
+    
     const newFoodInputText = parseFloat(foodInputText);
     const newRentInputText = parseFloat(rentInputText);
     const newClothInputText = parseFloat(clothInputText);
